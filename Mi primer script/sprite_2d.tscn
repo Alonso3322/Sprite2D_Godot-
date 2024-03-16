@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dbhcrfcegh0dk"]
+
+[ext_resource type="Texture2D" uid="uid://ic8jx60mm375" path="res://spiderman.svg" id="1_62xir"]
+[ext_resource type="Script" path="res://Sprite2D.gd" id="2_lmxd5"]
+
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(564, 322)
+scale = Vector2(0.0602, 0.0568)
+texture = ExtResource("1_62xir")
+script = ExtResource("2_lmxd5")
